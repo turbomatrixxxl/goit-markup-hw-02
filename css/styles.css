@@ -108,7 +108,7 @@ body {
 /* images description */
 .images-description {
   font-size: 16px;
-  line-height: 1.5x; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -134,7 +134,7 @@ body {
   text-decoration: none;
 }
 
-.footer-logo-span-studio {
+.footer-logo-span {
   color: #f4f4f4fd;
 }
 
