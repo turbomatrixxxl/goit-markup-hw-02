@@ -1,0 +1,159 @@
+:root {
+  --text-font-family: "Raleway", sans-serif;
+  --header-font-family: "Roboto", sans-serif;
+  --brand-color: #4d5ae5;
+  --white-color: #f4f4fd;
+  --text-brand-color: #2e2f42;
+  --text-adress-color: #434455;
+}
+
+/* Global styles */
+body {
+  font-family: var(text-font-family);
+}
+
+/* Classes */
+
+/*  header logo */
+.logo-web {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+
+  color: var(--brand-color);
+}
+
+.header-logo-studio {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+
+  color: var(--text-brand-color);
+}
+
+/* lists */
+.lists {
+  list-style-type: none;
+}
+
+/* nav */
+.nav-links {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+
+  color: var(--text-brand-color);
+
+  cursor: pointer;
+
+  text-decoration: none;
+}
+
+.nav-links:hover,
+.nav-links:focus {
+  color: var(--brand-color);
+}
+
+/* adress */
+.adress-links {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+
+  color: var(--text-adress-color);
+
+  cursor: pointer;
+
+  text-decoration: none;
+}
+
+.adress-links:hover,
+.adress-links:focus {
+  color: var(--brand-color);
+}
+
+/* filter buttons */
+.portfolio-filter-buttons {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+
+  color: var(--brand-color);
+  background-color: var(--white-color)
+
+  cursor: pointer;
+}
+
+.blue-text-filter-button .portfolio-filter-buttons:hover,
+.portfolio-filter-buttons:focus {
+  color: var(--WHITE, #fff);
+  background-color: var(--brand-color);
+}
+
+/* images header */
+.images-header {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+
+  color: var(--text-brand-color);
+}
+
+/* images description */
+.images-description {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+
+  color: var(--text-adress-color);
+}
+
+/* footer logo */
+.footer-logo-studio {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+
+.footer-final-text{
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+
+color: var(--white-color);
+}
+
+.footer-logo-and-text{
+    background-color: var(--text-brand-color);
+}
