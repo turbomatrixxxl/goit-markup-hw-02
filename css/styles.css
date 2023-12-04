@@ -160,7 +160,7 @@ body {
 .studio-main-hero-header {
   font-size: 56px;
   line-height: 1.07; /* 107.143% */
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #ffffffff;
 }
@@ -210,6 +210,10 @@ body {
 }
 
 /* third section */
+
+.studio-third-section-list-item {
+  background-color: #ffffffff;
+}
 
 .studio-third-section {
   background-color: #f4f4fd;
