@@ -1,3 +1,4 @@
+/* Portfolio section */
 :root {
   --body-header-font-family: "Raleway", sans-serif;
   --body-text-font-family: "Roboto", sans-serif;
@@ -146,4 +147,94 @@ body {
 
 .footer-logo-and-text {
   background-color: var(--text-brand-color);
+}
+
+/* Studio section */
+
+/* hero section */
+.studio-main-hero {
+  background-color: #2e2f42;
+}
+
+/* main title header */
+.studio-main-hero-header {
+  font-size: 56px;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02;
+  text-align: center;
+  color: #ffffffff;
+}
+
+/* hero button */
+.studio-hero-button {
+  font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  color: #ffffffff;
+  cursor: pointer;
+}
+
+.studio-hero-button:hover,
+.studio-hero-button:focus {
+  background-color: #404bbf;
+}
+
+/* first section */
+.studio-first-section-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.studio-first-section-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* second section */
+.studio-second-section-title {
+  font-size: 36px;
+  line-height: 11.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+/* third section */
+
+.studi-third-section {
+  background-color: #f4f4fd;
+}
+
+.studio-third-section-title {
+  font-size: 36px;
+  line-height: 11.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.studi-third-section-list-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+  background-color: #ffffffff;
+  color: #2e2f42;
+}
+
+.studi-third-section-list-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #434455;
 }
