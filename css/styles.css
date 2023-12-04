@@ -140,9 +140,9 @@ body {
 
 /* footer text */
 .footer-final-text {
-  line-height: 1.5x; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: #f4f4f4fd;
 }
 
 .footer-logo-and-text {
@@ -202,27 +202,29 @@ body {
 /* second section */
 .studio-second-section-title {
   font-size: 36px;
-  line-height: 11.11; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
 /* third section */
 
-.studi-third-section {
+.studio-third-section {
   background-color: #f4f4fd;
 }
 
 .studio-third-section-title {
   font-size: 36px;
-  line-height: 11.11; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
 
-.studi-third-section-list-subtitle {
+.studio-third-section-list-subtitle {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
@@ -231,7 +233,7 @@ body {
   color: #2e2f42;
 }
 
-.studi-third-section-list-paragraph {
+.studio-third-section-list-paragraph {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
