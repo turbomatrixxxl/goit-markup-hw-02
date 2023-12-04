@@ -1,6 +1,6 @@
 :root {
-  --text-font-family: "Raleway", sans-serif;
-  --header-font-family: "Roboto", sans-serif;
+  --body-header-font-family: "Raleway", sans-serif;
+  --body-text-font-family: "Roboto", sans-serif;
   --brand-color: #4d5ae5;
   --white-color: #f4f4fd;
   --text-brand-color: #2e2f42;
@@ -19,9 +19,9 @@ body {
 /*  header logo */
 
 .nav-logo {
-  font-family: Raleway;
-  font-size: 18px;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
+  font-size: 18px;
   line-height: 1, 17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -57,7 +57,7 @@ body {
 
 /* adress */
 
-.header-address {
+.header-address-lists {
   font-style: normal;
 }
 
