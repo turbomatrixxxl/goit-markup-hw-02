@@ -9,81 +9,68 @@
 
 /* Global styles */
 body {
-  font-family: var(text-font-family);
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 /* Classes */
 
 /*  header logo */
-.logo-web {
+
+.nav-logo {
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1, 17; /* 116.667% */
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: var(--brand-color);
+  color: #4d5ae5;
 }
 
-.header-logo-studio {
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-
-  color: var(--text-brand-color);
+.link {
+  text-decoration: none;
 }
 
-/* lists */
-.lists {
-  list-style-type: none;
+.nav-logo-span-studio {
+  color: #2e2f42;
+}
+
+/* list */
+.list {
+  list-style: none;
 }
 
 /* nav */
-.nav-links {
-  font-family: Roboto;
+.nav-list-studio {
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
-
-  color: var(--text-brand-color);
-
-  cursor: pointer;
-
-  text-decoration: none;
+  line-height: 1, 5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.nav-links:hover,
-.nav-links:focus {
-  color: var(--brand-color);
+.nav-list-studio:hover,
+.nav-list-studio:focus {
+  color: #404bbf;
 }
 
 /* adress */
-.adress-links {
-  font-family: Roboto;
-  font-size: 16px;
+
+.header-address {
   font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
-
-  color: var(--text-adress-color);
-
-  cursor: pointer;
-
-  text-decoration: none;
 }
 
-.adress-links:hover,
-.adress-links:focus {
-  color: var(--brand-color);
+.adress-list {
+  font-size: 16px;
+  line-height: 1, 5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.adress-list:hover,
+.adress-list:focus {
+  color: #404bbf;
 }
 
 /* filter buttons */
@@ -95,12 +82,12 @@ body {
   letter-spacing: 0.64px;
 
   color: var(--brand-color);
-  background-color: var(--white-color)
-
-  cursor: pointer;
+  background-color: var(--white-color);
 }
 
-.blue-text-filter-button .portfolio-filter-buttons:hover,
+/* blue-text-filter-button */
+
+.portfolio-filter-buttons:hover,
 .portfolio-filter-buttons:focus {
   color: var(--WHITE, #fff);
   background-color: var(--brand-color);
@@ -143,17 +130,17 @@ body {
   color: var(--white-color);
 }
 
-.footer-final-text{
-    font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
+.footer-final-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 
-color: var(--white-color);
+  color: var(--white-color);
 }
 
-.footer-logo-and-text{
-    background-color: var(--text-brand-color);
+.footer-logo-and-text {
+  background-color: var(--text-brand-color);
 }
