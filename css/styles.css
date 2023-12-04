@@ -75,46 +75,41 @@ body {
 
 /* filter buttons */
 .portfolio-filter-buttons {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
 
-  color: var(--brand-color);
-  background-color: var(--white-color);
+  color: #4d5ae5;
+  background-color: #f4f4fd;
 }
 
 /* blue-text-filter-button */
 
 .portfolio-filter-buttons:hover,
 .portfolio-filter-buttons:focus {
-  color: var(--WHITE, #fff);
-  background-color: var(--brand-color);
+  color: var(--WHITE, #ffffff);
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
 /* images header */
 .images-header {
-  font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
 
-  color: var(--text-brand-color);
+  color: #2e2f42;
 }
 
 /* images description */
 .images-description {
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
-
-  color: var(--text-adress-color);
+  line-height: 1.5x; /* 150% */
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* footer */
