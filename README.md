@@ -1,2 +1,2 @@
 # goit-markup-hw-02
-Al doilea proiect idividual
+Al doilea proiect individual
